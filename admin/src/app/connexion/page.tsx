@@ -60,16 +60,7 @@ export default function LoginPage() {
         </div>
         <p className="text-[12.5px] text-faint">Mot de passe oublié : demandez au Responsable de le réinitialiser.</p>
       </div>
-      <div className="hidden bg-ink lg:flex lg:flex-col lg:justify-end lg:p-12">
-        <div className="max-w-md text-paper">
-          <p className="display text-[30px] leading-tight">Réparations, ventes et stocks, au même endroit.</p>
-          <ul className="mt-8 space-y-3 text-[14.5px] text-paper/70">
-            <li>— Chaque dossier garde l’historique de ses devis, pièces et paiements.</li>
-            <li>— Les marges sont calculées à partir des coûts réellement enregistrés.</li>
-            <li>— Les stocks bougent uniquement par des opérations traçables.</li>
-          </ul>
-        </div>
-      </div>
+    
     </div>
   );
 }
